@@ -863,7 +863,7 @@ if (!m.isGroup) return reply(lang.groupOnly())
 				break
 			case 'cekwelcome':{
 				if (!m.isGroup) return reply(lang.groupOnly())
-				defaultwel = `*Welcome to @group*\n\n📛 : _@user_\n🔢 : _@number_\n💌 : _@bio_\n🏅 : _@members Members_\n📆 : _@day, @date_\n⏰ : _@time Asia/Jakarta_`
+				defaultwel = `*Welcome to @group*\n\n📛 : _@user_\n🔢 : _@number_\n💌 : _@bio_\n🏅 : _@members Members_\n📆 : _@day, @date_\n⏰ : _@time Asia/Jakarta_\nBaca desk ya biar ga tolol`
 				textwel = (db.data.chats[m.chat].setWelcome || defaultwel)
 				reply('Text welcome in group ' + groupName + `\n\n` + textwel)
 				}
