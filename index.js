@@ -863,14 +863,14 @@ if (!m.isGroup) return reply(lang.groupOnly())
 				break
 			case 'cekwelcome':{
 				if (!m.isGroup) return reply(lang.groupOnly())
-				defaultwel = `*Welcome to @group*\n\n📛 : _@user_\n🔢 : _@number_\n💌 : _@bio_\n🏅 : _@members Members_\n📆 : _@day, @date_\n⏰ : _@time Asia/Jakarta_\nBaca desk ya biar ga tolol`
+				defaultwel = `Selamat dateng anggota baru @user gblk\n@group bukan grup bokep yak\nmau ngapain joint ke sini?\n @number kalo udah di sini Minimal setor SFW hehe \nbaca deskripsi biar ga tolol\nLu orang yang ke @members join ke sini`
 				textwel = (db.data.chats[m.chat].setWelcome || defaultwel)
 				reply('Text welcome in group ' + groupName + `\n\n` + textwel)
 				}
 				break
 			case 'cekleft': case 'cekgoodbye':{
 				if (!m.isGroup) return reply(lang.groupOnly())
-				defaultwel = `◪ Goodbye @user\n◪ Leave from group: \n@group\n\n└─ ❏ Nomor: @number\nGoodBye~~`
+				defaultwel = `@user pergi lu jauh jauh anjg kutu loncat`
 				textwel = (db.data.chats[m.chat].setLeave || defaultwel)
 				reply('Text googbye in group ' + groupName + `\n\n` + textwel)
 				}
