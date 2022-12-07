@@ -412,7 +412,7 @@ exports.TbJail = (prefix, command) => {
     return `Kirim/Reply Foto/Sticker Dengan Caption ${prefix + command}`
 }
 exports.TbRepo = (prefix, command) => {
-    return `Kirim perintah ${prefix + command} *user* *repo* *branch*\n\nExp. ${prefix + command} *zeeone-ofc* *Alphabot-Md* *v12*`
+    return `Kirim perintah ${prefix + command} *user* *repo* *branch*\n\nExp. ${prefix + command} *zeeone-ofc* *Yayabot-Md* *v17*`
 }
 exports.StalkIg = () => {
     return `Masukkan username`
@@ -512,7 +512,7 @@ exports.NoAudRep = (prefix, command) => {
 }
 
 exports.NoTagBan = (prefix, command) => {
-    return `Contoh penggunaan :\n${prefix + command} 62938828728992 \natau\n${prefix + command} @tagmember`
+    return `Contoh penggunaan :\n${prefix + command} 6281238996370 \natau\n${prefix + command} @tagmember`
 }
 exports.getBan = (a) => {
     return `⚠️ Mohon maaf nomor kamu telah di banned oleh owner\n\nOwner 👇\nwa.me/${a}`
@@ -632,7 +632,7 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar`
+    return `Tunggu bentar ea tod`
 }
 exports.ok = () => {
     return `✅ Done.`
@@ -664,7 +664,7 @@ exports.cmdNotFound = (cmd, prefix) => {
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner`
+    return `❎ Command ini khusus Owner\nSilahkan menghubungi Owner`
 }
 
 exports.doneOwner = () => {
@@ -1722,6 +1722,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ Mhankbarbar
 │○ Nurutomo
 │○ Rashid
+│○ Dica
 │○ ZeeoneOfc
 │○ Penyedia Module
 ╰❒ And All Support
@@ -2445,6 +2446,7 @@ exports.tqto = () =>{
 │○ Mhankbarbar
 │○ Nurutomo
 │○ Rashid
+│○ Dica
 │○ ZeeoneOfc
 │○ Penyedia Module
 ╰❒ And All Support
